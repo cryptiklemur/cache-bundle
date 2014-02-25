@@ -8,9 +8,6 @@
 namespace Aequasi\Bundle\CacheBundle\DependencyInjection\Builder;
 
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
-use Symfony\Component\DependencyInjection\Definition;
-use Symfony\Component\DependencyInjection\DefinitionDecorator;
-use Symfony\Component\DependencyInjection\Reference;
 
 /**
  * Class RouterBuilder

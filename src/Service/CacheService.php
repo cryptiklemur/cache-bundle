@@ -84,6 +84,9 @@ class CacheService implements Cache
         return call_user_func_array( array( $this->cache, $name ), $arguments );
     }
 
+    /**
+     * @param string $name
+     */
     private function timeCall( $name, $arguments )
     {
         $start  = microtime( true );

@@ -10,7 +10,6 @@ namespace Aequasi\Bundle\CacheBundle\DependencyInjection\Builder;
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
 use Symfony\Component\DependencyInjection\Alias;
 use Symfony\Component\DependencyInjection\Definition;
-use Symfony\Component\DependencyInjection\DefinitionDecorator;
 use Symfony\Component\DependencyInjection\Reference;
 
 /**
@@ -46,7 +45,7 @@ class ServiceBuilder extends BaseBuilder
     }
 
     /**
-     * @param       $typeId
+     * @param       string $typeId
      * @param       $name
      * @param array $instance
      *

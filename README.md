@@ -1,6 +1,6 @@
 # This Bundle is Deprecated
 
-This bundle is being replaced by [PHP-Cache](http://www.php-cache.com). Check it out!
+This bundle has been replaced by [PHP-Cache](http://www.php-cache.com). Check it out!
 
 Aequasi cache-bundle [![Build Status](https://travis-ci.org/aequasi/cache-bundle.png?branch=master)](https://travis-ci.org/aequasi/cache-bundle)
 ====================
